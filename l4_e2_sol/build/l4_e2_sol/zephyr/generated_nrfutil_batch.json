@@ -1,0 +1,24 @@
+{
+  "nrfutil_device_version": "2.20.0",
+  "family": "NRF53_FAMILY",
+  "operations": [
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "chip_erase_mode": "ERASE_ALL",
+        "firmware": {
+          "file": "C:\\Users\\teemu\\NordicSW\\BLEteht\\bt-fund\\l4\\l4_e2_sol\\build\\l4_e2_sol\\zephyr\\zephyr.hex"
+        },
+        "type": "program",
+        "verify": "VERIFY_READ"
+      }
+    },
+    {
+      "core": "NRFDL_DEVICE_CORE_APPLICATION",
+      "operation": {
+        "option": "RESET_PIN",
+        "type": "reset"
+      }
+    }
+  ]
+}
