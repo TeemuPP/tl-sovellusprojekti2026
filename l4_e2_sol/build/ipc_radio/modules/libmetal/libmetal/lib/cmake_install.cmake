@@ -39,186 +39,186 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/compiler/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/compiler/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/processor/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/processor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/system/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/system/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/alloc.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/alloc.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/alloc.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/alloc.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/assert.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/assert.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/assert.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/assert.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/atomic.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/atomic.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/atomic.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/atomic.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/cache.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/cache.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/cache.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/cache.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/condition.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/condition.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/condition.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/condition.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/config.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/config.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/config.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/cpu.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/cpu.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/cpu.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/cpu.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/device.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/device.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/device.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/device.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/errno.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/errno.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/errno.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/errno.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/dma.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/dma.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/dma.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/dma.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/io.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/io.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/io.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/io.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/irq.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/irq.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/irq.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/irq.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/irq_controller.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/irq_controller.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/irq_controller.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/irq_controller.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/list.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/list.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/list.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/list.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/log.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/log.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/log.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/log.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/mutex.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/mutex.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/mutex.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/mutex.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/shmem.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/shmem.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/shmem.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/shmem.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/sleep.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/sleep.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/sleep.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/sleep.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/softirq.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/softirq.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/softirq.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/softirq.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/spinlock.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/spinlock.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/spinlock.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/spinlock.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/sys.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/sys.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/sys.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/sys.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/time.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/time.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/time.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/time.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/utilities.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/utilities.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/utilities.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/utilities.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/version.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/version.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/version.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/version.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/armcc/errno.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/armcc/errno.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/armcc/errno.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/armcc/errno.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/gcc/atomic.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/gcc/atomic.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/gcc/atomic.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/gcc/atomic.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/gcc/compiler.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/gcc/compiler.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/gcc/compiler.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/gcc/compiler.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/iar/compiler.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/iar/compiler.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/iar/compiler.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/iar/compiler.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/iar/errno.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/iar/errno.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/compiler/iar/errno.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/compiler/iar/errno.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/processor/generic/cpu.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/processor/generic/cpu.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/processor/generic/cpu.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/processor/generic/cpu.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/processor/generic/atomic.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/processor/generic/atomic.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/processor/generic/atomic.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/processor/generic/atomic.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/alloc.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/alloc.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/alloc.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/alloc.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/assert.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/assert.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/assert.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/assert.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/cache.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/cache.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/cache.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/cache.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/condition.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/condition.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/condition.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/condition.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/io.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/io.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/io.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/io.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/log.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/log.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/log.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/log.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/mutex.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/mutex.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/mutex.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/mutex.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/sleep.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/sleep.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/sleep.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/sleep.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/sys.h" FILES "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/sys.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE RENAME "metal/system/zephyr/sys.h" FILES "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/include/metal/system/zephyr/sys.h")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/install_local_manifest.txt"
+  file(WRITE "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/libmetal/libmetal/lib/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,5 +1,5 @@
 @echo off
-cd /D C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\l4_e2_sol || (set FAIL_LINE=2& goto :ABORT)
+cd /D C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\l4_e2_sol || (set FAIL_LINE=2& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo abrobot_sh1106_72x40 || (set FAIL_LINE=3& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo adafruit_24lc32 || (set FAIL_LINE=4& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo adafruit_2_8_tft_touch_v2 || (set FAIL_LINE=5& goto :ABORT)

@@ -39,77 +39,77 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/disk/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/disk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/firmware/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/firmware/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/interrupt_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/misc/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/misc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/pcie/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/pcie/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/usb/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/usb_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/bluetooth/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/bluetooth/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/clock_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/console/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/entropy/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/gpio/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/mbox/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/mbox/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/timer/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/drivers/install_local_manifest.txt"
+  file(WRITE "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/drivers/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

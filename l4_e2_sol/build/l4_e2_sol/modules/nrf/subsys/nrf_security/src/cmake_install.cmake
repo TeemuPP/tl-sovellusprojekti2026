@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/tf-psa-crypto/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/tf-psa-crypto/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/core/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/drivers/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/zephyr/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/zephyr/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/modules/nrf/subsys/nrf_security/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

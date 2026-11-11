@@ -39,132 +39,132 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/canbus/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/debug/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/fb/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/fs/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/gnss/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/gnss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/instrumentation/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/instrumentation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/ipc/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/kvss/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/kvss/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/logging/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/modbus/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/pm/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/pmci/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/portability/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/random/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/rtio/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/sd/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/stats/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/storage/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/tracing/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/usb/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/bluetooth/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/bluetooth/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/install_local_manifest.txt"
+  file(WRITE "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/subsys/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

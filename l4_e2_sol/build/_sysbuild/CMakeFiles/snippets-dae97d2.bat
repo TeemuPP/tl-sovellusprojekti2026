@@ -1,5 +1,5 @@
 @echo off
-cd /D C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\_sysbuild || (set FAIL_LINE=2& goto :ABORT)
+cd /D C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\_sysbuild || (set FAIL_LINE=2& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo bt-ll-sw-split || (set FAIL_LINE=3& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo cdc-acm-console || (set FAIL_LINE=4& goto :ABORT)
 C:\ncs\toolchains\4f5b6ad6dd\opt\bin\cmake.exe -E echo ci-shell || (set FAIL_LINE=5& goto :ABORT)
