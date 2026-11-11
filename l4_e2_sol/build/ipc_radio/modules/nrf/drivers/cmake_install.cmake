@@ -39,47 +39,47 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/entropy/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/entropy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/flash/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/gpio/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/hw_cc3xx/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/hw_cc3xx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/mpsl/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/mpsl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/serial/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/serial/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/dect/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/dect/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/clock_control/cmake_install.cmake")
+  include("C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/clock_control/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/install_local_manifest.txt"
+  file(WRITE "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/modules/nrf/drivers/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

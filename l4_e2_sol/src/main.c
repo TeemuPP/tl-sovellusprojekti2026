@@ -52,10 +52,8 @@ LOG_MODULE_REGISTER(Lesson4_Exercise2, LOG_LEVEL_INF);
 static bool app_button_state;
 static struct k_work adv_work;
 /* STEP 15 - Define the data you want to stream over Bluetooth LE */
-static uint32_t x_value = 0;
-static uint32_t y_value = 0;
-static uint32_t z_value = 0;
 static volatile uint32_t dir_value = 0; // Suunta
+bool sample = 0;
 
 static const struct bt_data ad[] = {
 	BT_DATA_BYTES(BT_DATA_FLAGS, (BT_LE_AD_GENERAL | BT_LE_AD_NO_BREDR)),
@@ -87,16 +85,6 @@ static void recycled_cb(void)
 	printk("Connection object available from previous conn. Disconnect is complete!\n");
 	advertising_start();
 }
-/* STEP 16 - Define a function to simulate the data */
-
-/*static void simulate_data(void)
-{
-	app_sensor_value++;
-	if (app_sensor_value == 200) {
-		app_sensor_value = 100;
-	}
-	
-}*/
 
 static void app_led_cb(bool led_state)
 {
@@ -108,23 +96,7 @@ static bool app_button_cb(void)
 	return app_button_state;
 }
 
-/* STEP 18.1 - Define the thread function  */
 
-
-/*void send_data_thread(void)
-{
-	while (1) {
-		// Simulate data 
-		simulate_data();
-		// Send notification, the function sends notifications only if a client is subscribed
-		my_lbs_send_sensor_notify(app_sensor_value);
-		
-
-		k_sleep(K_MSEC(NOTIFY_INTERVAL));
-	}
-}*/
-
-//
 static void button_changed(uint32_t button_state, uint32_t has_changed)
 {
 	//printk("button_state = %d\n",button_state);
@@ -144,13 +116,15 @@ static void button_changed(uint32_t button_state, uint32_t has_changed)
         dir_value = 0;
     	}
 
-    printk("Suunta: %u\n", dir_value);
+    printk("SUUNTA: %u\n", dir_value);
 
 	}		
 	
 	if ((has_changed & USER_BUTTON_3) && (button_state & USER_BUTTON_3)) 
 	{
-		printk("Nappi 3 alhaalla\n");
+		printk("Nappi 3 alhaalla, Sample aloitettu\n");
+		sample = 1;
+		
 	}		
 
 	if ((has_changed & USER_BUTTON_4) && (button_state & USER_BUTTON_4)) 
@@ -192,16 +166,6 @@ static struct my_lbs_cb app_callbacks = {
 	.button_cb = app_button_cb,
 };
 
-/*static void button_changed(uint32_t button_state, uint32_t has_changed)
-{
-	if (has_changed & USER_BUTTON) {
-		uint32_t user_button_state = button_state & USER_BUTTON;
-		// STEP 6 - Send indication on a button press
-		my_lbs_send_button_state_indicate(user_button_state);
-		app_button_state = user_button_state ? true : false;
-	}
-}
-*/
 static void on_connected(struct bt_conn *conn, uint8_t err)
 {
 	if (err) {
@@ -292,6 +256,11 @@ int main(void)
         
 		dk_set_led(RUN_STATUS_LED, (++blink_status) % 2);
         k_sleep(K_MSEC(RUN_LED_BLINK_INTERVAL));
+
+		if(sample){
+			printk("SAMPLETTAA....");
+			sample = 0;
+		}
 		/*
 		struct Measurement m = readADCValue();
 		printk("Suunta: %u, x = %u, y = %u, z = %u\n",dir_value, m.x, m.y, m.z);

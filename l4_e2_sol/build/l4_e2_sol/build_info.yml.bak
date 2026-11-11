@@ -1,7 +1,7 @@
 cmake:
   application:
-    configuration-dir: 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol'
-    source-dir: 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol'
+    configuration-dir: 'C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol'
+    source-dir: 'C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol'
   board:
     name: 'nrf5340dk'
     path:
@@ -40,9 +40,8 @@ cmake:
   kconfig:
     files:
      - 'C:/ncs/v3.4.1/zephyr/boards/nordic/nrf5340dk/nrf5340dk_nrf5340_cpuapp_defconfig'
-     - 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/prj.conf'
-     - 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/misc/generated/extra_kconfig_options.conf'
-     - 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/l4_e2_sol/zephyr/.config.sysbuild'
+     - 'C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/prj.conf'
+     - 'C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/l4_e2_sol/zephyr/.config.sysbuild'
     user-files:
      - 'prj.conf'
   toolchain:

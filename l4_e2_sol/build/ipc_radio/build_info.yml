@@ -41,7 +41,7 @@ cmake:
      - 'C:/ncs/v3.4.1/zephyr/boards/nordic/nrf5340dk/nrf5340dk_nrf5340_cpunet_defconfig'
      - 'C:/ncs/v3.4.1/nrf/applications/ipc_radio/prj.conf'
      - 'C:/ncs/v3.4.1/nrf/applications/ipc_radio/overlay-bt_hci_ipc.conf'
-     - 'C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio/zephyr/.config.sysbuild'
+     - 'C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio/zephyr/.config.sysbuild'
     user-files:
      - 'C:/ncs/v3.4.1/nrf/applications/ipc_radio/prj.conf'
   toolchain:

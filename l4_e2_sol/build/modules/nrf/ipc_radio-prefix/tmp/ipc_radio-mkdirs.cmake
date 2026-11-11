@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/ncs/v3.4.1/nrf/applications/ipc_radio")
   file(MAKE_DIRECTORY "C:/ncs/v3.4.1/nrf/applications/ipc_radio")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/ipc_radio"
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix"
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/tmp"
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp"
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src"
-  "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/ipc_radio"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/tmp"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src"
+  "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/teemu/NordicSW/BLEteht/bt-fund/l4/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/rager/Desktop/tl-sovellusprojekti2026/l4_e2_sol/build/modules/nrf/ipc_radio-prefix/src/ipc_radio-stamp${cfgdir}") # cfgdir has leading slash
 endif()

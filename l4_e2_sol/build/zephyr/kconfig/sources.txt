@@ -1,9 +1,9 @@
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\Kconfig.sysbuild
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\Kconfig\Kconfig.sysbuild.modules
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\Kconfig\boards\Kconfig.nrf5340dk
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\Kconfig\boards\Kconfig.sysbuild
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\Kconfig\soc\Kconfig.soc
-C:\Users\teemu\NordicSW\BLEteht\bt-fund\l4\l4_e2_sol\build\Kconfig\soc\Kconfig.sysbuild
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\Kconfig.sysbuild
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\Kconfig\Kconfig.sysbuild.modules
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\Kconfig\boards\Kconfig.nrf5340dk
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\Kconfig\boards\Kconfig.sysbuild
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\Kconfig\soc\Kconfig.soc
+C:\Users\rager\Desktop\tl-sovellusprojekti2026\l4_e2_sol\build\Kconfig\soc\Kconfig.sysbuild
 C:\ncs\v3.4.1\nrf\soc\nordic\Kconfig.soc
 C:\ncs\v3.4.1\nrf\soc\nordic\Kconfig.sysbuild
 C:\ncs\v3.4.1\nrf\soc\nordic\common\vpr\Kconfig.sysbuild
