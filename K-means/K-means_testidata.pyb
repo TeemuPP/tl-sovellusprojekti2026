@@ -1,0 +1,87 @@
+import numpy as np
+import matplotlib.pyplot as plt
+testi_data = np.zeros((600,3))
+testi_data[0:100]   = np.array([1800,1500,1500]) #x alas
+testi_data[100:200] = np.array([1200,1500,1500]) #x ylös
+testi_data[200:300] = np.array([1500,1800,1500]) #y alas
+testi_data[300:400] = np.array([1500,1200,1500]) #y ylös
+testi_data[400:500] = np.array([1500,1500,1800]) #z alas
+testi_data[500:600] = np.array([1500,1500,1200]) #z ylös
+
+fig = plt.figure(figsize=(9,7))
+ax = fig.add_subplot(111, projection="3d")
+ax.scatter(testi_data[:,0],testi_data[:,1],testi_data[:,2],marker='o',s=10)
+
+testi_data += 20*np.random.randn(600,3)
+
+def arvo_keskipisteet(maara,min,max):
+    keskipisteet = np.zeros((maara,3))
+    for x in range(maara):
+        keskipisteet[x] = np.array([
+        np.random.uniform(min, max),
+        np.random.uniform(min, max),
+        np.random.uniform(min, max)
+        ])
+        #for y in x:
+         #keskipisteet[y] = np.array([np.random.rand(min,max),np.random.rand(min,max),np.random.rand(min,max)])
+      
+    return keskipisteet
+
+def mittaa_pisteet(keskipisteet, mittaus_data):
+    matkat = [] #tyhjä taulukko
+    #for x,y,z in range(len(testi_data)):
+        #for x2,y2,z2 in range(len(keskipisteet)): Liian vaike
+            #matka = np.sqrt((mittaus_data[x]-keskipisteet[x2])^2+(mittaus_data[y]-keskipisteet[y2])^2(mittaus_data[z]-keskipisteet[z2])^2)
+    for p in mittaus_data:
+        pisteenmatkat=[]
+        for kp in keskipisteet:
+            matka = np.linalg.norm(p-kp)
+            '''np.sqrt(
+            (p[0]-kp[0])**2
+            +(p[1]-kp[1])**2
+            +(p[2]-kp[2])**2)'''
+            pisteenmatkat.append(matka)
+        matkat.append(pisteenmatkat)
+    return matkat
+
+keski = arvo_keskipisteet(6,1000,2000)
+'''print(keski)
+yksi = arvo_keskipisteet(1,1000,2000)
+print("yksi:", yksi)'''
+matkat = mittaa_pisteet(keski,testi_data)
+print(matkat)
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+ax.set_title('3D Sensor Measurements')
+
+plt.show()
+
+fig = plt.figure(figsize=(9,7))
+ax = fig.add_subplot(111, projection='3d')
+
+colors = ['red', 'darkred', 'green', 'darkgreen', 'blue', 'darkblue']
+labels = ['X alas', 'X ylös', 'Y alas', 'Y ylös', 'Z alas', 'Z ylös']
+
+for i in range(6):
+    start = i*100
+    end = start + 100
+
+    ax.scatter(
+        testi_data[start:end, 0],
+        testi_data[start:end, 1],
+        testi_data[start:end, 2],
+        color=colors[i],
+        label=labels[i],
+        s=12
+    )
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+ax.set_zlabel('Z')
+
+ax.set_title('3D Sensor Measurements')
+ax.legend()
+
+plt.show()
